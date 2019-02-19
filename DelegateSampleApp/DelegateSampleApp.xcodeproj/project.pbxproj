@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B53F8C321ECA1260082722F /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53F8C221ECA1260082722F /* SecondController.swift */; };
+		1B53F8CA21ECA4CC0082722F /* XIBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53F8C821ECA4CC0082722F /* XIBController.swift */; };
+		1B53F8CB21ECA4CC0082722F /* XIBController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B53F8C921ECA4CC0082722F /* XIBController.xib */; };
+		1B53F8CD21ECB6BA0082722F /* StoryboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53F8CC21ECB6BA0082722F /* StoryboardController.swift */; };
+		1B9E19D521FAEFC2005ADA94 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E19D321FAEFC2005ADA94 /* MyCell.swift */; };
+		1B9E19D621FAEFC2005ADA94 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E19D421FAEFC2005ADA94 /* MyCell.xib */; };
+		1B9E19D921FAF021005ADA94 /* XIBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E19D721FAF021005ADA94 /* XIBTableViewController.swift */; };
+		1B9E19DA21FAF021005ADA94 /* XIBTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E19D821FAF021005ADA94 /* XIBTableViewController.xib */; };
 		1BF36B6321E4D55A00D5A4A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF36B6221E4D55A00D5A4A5 /* AppDelegate.swift */; };
 		1BF36B6521E4D55A00D5A4A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF36B6421E4D55A00D5A4A5 /* ViewController.swift */; };
 		1BF36B6821E4D55A00D5A4A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF36B6621E4D55A00D5A4A5 /* Main.storyboard */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B53F8C221ECA1260082722F /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
+		1B53F8C821ECA4CC0082722F /* XIBController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBController.swift; sourceTree = "<group>"; };
+		1B53F8C921ECA4CC0082722F /* XIBController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBController.xib; sourceTree = "<group>"; };
+		1B53F8CC21ECB6BA0082722F /* StoryboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardController.swift; sourceTree = "<group>"; };
+		1B9E19D321FAEFC2005ADA94 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		1B9E19D421FAEFC2005ADA94 /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		1B9E19D721FAF021005ADA94 /* XIBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBTableViewController.swift; sourceTree = "<group>"; };
+		1B9E19D821FAF021005ADA94 /* XIBTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBTableViewController.xib; sourceTree = "<group>"; };
 		1BF36B5F21E4D55A00D5A4A5 /* DelegateSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegateSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF36B6221E4D55A00D5A4A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF36B6421E4D55A00D5A4A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +73,14 @@
 				1BF36B6621E4D55A00D5A4A5 /* Main.storyboard */,
 				1BF36B6921E4D55B00D5A4A5 /* Assets.xcassets */,
 				1BF36B6E21E4D55B00D5A4A5 /* Info.plist */,
+				1B53F8C221ECA1260082722F /* SecondController.swift */,
+				1B53F8C821ECA4CC0082722F /* XIBController.swift */,
+				1B53F8C921ECA4CC0082722F /* XIBController.xib */,
+				1B53F8CC21ECB6BA0082722F /* StoryboardController.swift */,
+				1B9E19D321FAEFC2005ADA94 /* MyCell.swift */,
+				1B9E19D421FAEFC2005ADA94 /* MyCell.xib */,
+				1B9E19D721FAF021005ADA94 /* XIBTableViewController.swift */,
+				1B9E19D821FAF021005ADA94 /* XIBTableViewController.xib */,
 			);
 			path = DelegateSampleApp;
 			sourceTree = "<group>";
@@ -119,8 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B53F8CB21ECA4CC0082722F /* XIBController.xib in Resources */,
 				1BF36B6A21E4D55B00D5A4A5 /* Assets.xcassets in Resources */,
+				1B9E19DA21FAF021005ADA94 /* XIBTableViewController.xib in Resources */,
 				1BF36B6821E4D55A00D5A4A5 /* Main.storyboard in Resources */,
+				1B9E19D621FAEFC2005ADA94 /* MyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B53F8C321ECA1260082722F /* SecondController.swift in Sources */,
+				1B9E19D921FAF021005ADA94 /* XIBTableViewController.swift in Sources */,
+				1B53F8CA21ECA4CC0082722F /* XIBController.swift in Sources */,
+				1B53F8CD21ECB6BA0082722F /* StoryboardController.swift in Sources */,
+				1B9E19D521FAEFC2005ADA94 /* MyCell.swift in Sources */,
 				1BF36B6521E4D55A00D5A4A5 /* ViewController.swift in Sources */,
 				1BF36B6321E4D55A00D5A4A5 /* AppDelegate.swift in Sources */,
 			);
